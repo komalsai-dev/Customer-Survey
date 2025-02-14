@@ -53,6 +53,7 @@ npm start
 Open your browser and navigate to:
 ```arduino
 http://localhost:3000
+
 ## Application Flow
 
 ### Welcome Screen:
@@ -86,8 +87,5 @@ Here’s how data is stored in Local Storage:
   },
   "sessionStatus": "COMPLETED"
 }
-## Folder Structure
 
-The folder structure for the project is as follows:
-customer-survey-kiosk/ ├── public/ │ ├── index.html # Main HTML file for the application │ ├── manifest.json # Web app manifest file ├── src/ │ ├── components/ # React component files │ │ ├── WelcomeScreen.js # Welcome screen component │ │ ├── SurveyScreen.js # Survey screen component │ │ ├── ThankYouScreen.js # Thank you screen component │ ├── styles/ # Styling files │ │ ├── App.css # Main CSS file │ ├── App.js # Root component for the app │ ├── reportWebVitals.js # Performance metrics file │ └── index.js # Entry point for the React app ├── package.json # Project metadata and dependencies └── README.md # Documentation for the project
 
