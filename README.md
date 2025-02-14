@@ -52,4 +52,5 @@ To start the application in development mode, run:
 npm start
 ```
 ![Welcome Screen](https://github.com/komalsai-dev/Customer-Survey/blob/768da2b2610f83f8a073e319acf77a36fb384694/WelcomeScreen.png)
+![Survey Screen](https://github.com/komalsai-dev/Customer-Survey/blob/c2a050d2b96ef99ecc536b75e4d7b221941d9cfe/SurveyScreen.png)
 
