@@ -40,3 +40,14 @@ This is a React-based Customer Survey Kiosk application designed to collect user
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+2. Navigate to the project directory:
+   ```bash
+   cd customer-survey-kiosk
+3. Install the dependencies:
+   ```bash
+   npm install
+### Running the Application
+To start the application in development mode, run:
+```bash
+npm start
+
