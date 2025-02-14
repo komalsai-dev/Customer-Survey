@@ -86,4 +86,5 @@ Here’s how data is stored in Local Storage:
   },
   "sessionStatus": "COMPLETED"
 }
+![Welcome Screen]()
 
