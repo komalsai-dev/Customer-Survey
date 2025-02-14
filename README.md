@@ -50,4 +50,44 @@ This is a React-based Customer Survey Kiosk application designed to collect user
 To start the application in development mode, run:
 ```bash
 npm start
+Open your browser and navigate to:
+```arduino
+http://localhost:3000
+## Application Flow
+
+### Welcome Screen:
+- Displays the project introduction.
+- The user clicks "Start Survey" to proceed.
+
+### Survey Screen:
+- Questions are displayed one at a time.
+- Buttons:
+  - **Prev**: Navigate to the previous question.
+  - **Next**: Navigate to the next question.
+  - **Skip**: Skip the current question and move to the next.
+- Answers and skips are stored in Local Storage.
+
+### Thank You Screen:
+- A confirmation dialog prompts the user to submit the survey.
+- Upon submission, the session is marked as `COMPLETED`.
+
+---
+
+## Local Storage Data Structure
+
+Here’s how data is stored in Local Storage:
+
+```json
+{
+  "surveyResponses": {
+    "1": 4,  // Question ID and answer
+    "2": null,  // Skipped question
+    "3": 3
+  },
+  "sessionStatus": "COMPLETED"
+}
+## Folder Structure
+
+The folder structure for the project is as follows:
+customer-survey-kiosk/ ├── public/ │ ├── index.html # Main HTML file for the application │ ├── manifest.json # Web app manifest file ├── src/ │ ├── components/ # React component files │ │ ├── WelcomeScreen.js # Welcome screen component │ │ ├── SurveyScreen.js # Survey screen component │ │ ├── ThankYouScreen.js # Thank you screen component │ ├── styles/ # Styling files │ │ ├── App.css # Main CSS file │ ├── App.js # Root component for the app │ ├── reportWebVitals.js # Performance metrics file │ └── index.js # Entry point for the React app ├── package.json # Project metadata and dependencies └── README.md # Documentation for the project
 
