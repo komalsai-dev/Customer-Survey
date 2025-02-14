@@ -50,5 +50,6 @@ This is a React-based Customer Survey Kiosk application designed to collect user
 To start the application in development mode, run:
 ```bash
 npm start
+```
 ![Welcome Screen](https://github.com/komalsai-dev/Customer-Survey/blob/768da2b2610f83f8a073e319acf77a36fb384694/WelcomeScreen.png)
 
