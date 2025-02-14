@@ -50,8 +50,8 @@ This is a React-based Customer Survey Kiosk application designed to collect user
 To start the application in development mode, run:
 ```bash
 npm start
- Open your browser and navigate to:
- ```arduino
+### Open your browser and navigate to:
+  ```arduino
  http://localhost:3000
 
 
