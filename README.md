@@ -50,41 +50,5 @@ This is a React-based Customer Survey Kiosk application designed to collect user
 To start the application in development mode, run:
 ```bash
 npm start
- Open your browser and navigate to:
- ```arduino
- http://localhost:3000
-## Application Flow
-
-### Welcome Screen:
-- Displays the project introduction.
-- The user clicks "Start Survey" to proceed.
-
-### Survey Screen:
-- Questions are displayed one at a time.
-- Buttons:
-  - **Prev**: Navigate to the previous question.
-  - **Next**: Navigate to the next question.
-  - **Skip**: Skip the current question and move to the next.
-- Answers and skips are stored in Local Storage.
-
-### Thank You Screen:
-- A confirmation dialog prompts the user to submit the survey.
-- Upon submission, the session is marked as `COMPLETED`.
-
----
-
-## Local Storage Data Structure
-
-Here’s how data is stored in Local Storage:
-
-```json
-{
-  "surveyResponses": {
-    "1": 4,  // Question ID and answer
-    "2": null,  // Skipped question
-    "3": 3
-  },
-  "sessionStatus": "COMPLETED"
-}
 ![Welcome Screen](https://github.com/komalsai-dev/Customer-Survey/blob/768da2b2610f83f8a073e319acf77a36fb384694/WelcomeScreen.png)
 
