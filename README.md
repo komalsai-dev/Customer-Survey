@@ -86,5 +86,5 @@ Here’s how data is stored in Local Storage:
   },
   "sessionStatus": "COMPLETED"
 }
-![Welcome Screen]()
+![Welcome Screen](https://github.com/komalsai-dev/Customer-Survey/blob/768da2b2610f83f8a073e319acf77a36fb384694/WelcomeScreen.png)
 
